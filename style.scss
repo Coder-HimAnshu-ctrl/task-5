@@ -1,0 +1,227 @@
+@font-face {
+    font-family: f-1;
+    src: url(./assets/fonts/DMSans-VariableFont_opsz\,wght.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: f-1;
+    background-color: rgb(240, 240, 240);
+}
+
+html {
+    font-size: 10px;
+}
+
+@mixin display($padding,$gap,$line-height) {
+    width:80vw;
+    padding: $padding;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    margin: 1.5rem 1.5rem;
+    line-height:$line-height;
+    gap:$gap;
+    text-align: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    .section-1{
+   @include display(2rem 2rem,2rem,2rem);
+    background-color: rgb(101, 36, 187);
+
+    #section-1top {
+        text-align: center;
+        font-size: 1rem;
+        color: rgb(245, 244, 244);
+
+        h1 {
+            font-weight: 400;
+        }
+
+        span {
+            color: #F8C315;
+        }
+    }
+
+    #section-1bottom {
+        width: 100%;
+        font-size: .8rem;
+        text-align: center;
+        color: rgb(207, 206, 206);
+        object-fit: fill;
+        line-height: 1.3rem;
+
+        h3 {
+            opacity: .8;
+        }
+
+        img {
+            width: 80%;
+        }
+    }
+}
+
+.section-2{
+    @include display(1rem .4rem,0rem,1.2rem);
+    background-color: white;
+    #section-2top{
+        object-fit: fill;
+        img{
+            width: 100%;
+        }
+    }
+    #section-2bottom{
+        h2{
+            font-weight:600 ;
+            font-size: 1.3rem;
+        }
+    }
+
+}
+
+.section-3{
+    @include display(0rem 0rem ,1rem ,1.4rem);
+    background-color:rgb(234, 187, 126) ;
+    #section-3-top{
+        padding-left: 1rem;
+        padding-top: 1rem;
+        width: 80%;
+        h2{
+            font-weight: 600;
+            font-size: 1.2rem;
+        }
+    }
+    #section-3-bottom{
+        object-fit:cover;
+        width: 74%;
+        padding-left: 1rem;
+        padding-bottom: 0rem;
+        img{
+            width: 100%;
+        }
+    }
+}
+
+.section-4{
+    @include display(1rem,1rem ,1.4);
+    background-color: rgb(198, 198, 198);
+    #section-4-top{
+        h2{
+            font-size: 1.4rem;
+            font-weight: 600;
+        }
+    }
+    #section-4-middle{
+        object-fit: cover;
+        img{
+            width: 100%;
+        }
+    }
+    #section-4-bottom{
+        opacity: .8;
+        h4{
+            font-weight: 400;
+        }
+    }
+}
+
+.section-5{
+    @include display(1rem 3rem,2rem ,1.3rem);
+    background-color: rgb(98, 56, 182);
+    color: rgb(239, 239, 239);
+
+    #section-5-top{
+       object-fit: cover;
+       
+       img{
+        width: 100%;
+       }
+    }
+    #section-5-bottom h2{
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+}
+
+.section-6{
+    @include display(1rem 1rem,2rem , .4rem);
+    background-color: white;
+
+    #section-6-top{
+            text-align: start;
+        h1{
+            font-size: 2rem;
+            font-weight: 500;
+        }
+    }
+    #section-6-middle{
+        h4{
+            text-align: start;
+            font-size: .8rem;
+            font-weight: 400;
+        }
+    }
+    #section-6-bottom{
+        object-fit: cover;
+        align-items: start;
+        width: 60%;
+        img{
+            width: 100%;
+        }
+    }
+
+}
+
+.section-7{
+    @include display(1.3rem 1.3rem, 2rem,1.2rem);
+    background-color: rgb(252, 233, 236);
+    #section-7-top{
+        h1{
+            font-size: 1.5rem;
+            font-weight: 600;
+            i{
+                color: rgb(146, 75, 234);
+            }
+        }
+    }
+    #section-7-bottom{
+        object-fit: cover;
+        width: 70%;
+        img{
+            width: 100%;
+        }
+    }
+}
+
+.section-8{
+    @include display(1rem 1rem,2em ,1.8rem);
+    background-color: rgb(234, 187, 126) ;
+    #section-8-top{
+         font-size: 1em;
+         width: 85%;
+         h1{
+           font-weight: 500; 
+         }
+    }
+    #section-8-bottom{
+        object-fit: cover;
+        img{
+            width: 100%;
+        }
+    }
+}
+}
