@@ -22,7 +22,7 @@ html {
 }
 
 @mixin display($padding,$gap,$line-height) {
-    width:80vw;
+    width:80%;
     padding: $padding;
     display: flex;
     flex-direction: column;
@@ -33,7 +33,7 @@ html {
     text-align: center;
 }
 
-main{
+.main{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -224,4 +224,15 @@ main{
         }
     }
 }
+}
+
+@media (min-width:425px) {
+      .main{
+        width: 100vw;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: minmax(150px,auto);
+        padding: 1rem;
+      }
+    
 }

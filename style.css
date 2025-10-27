@@ -20,14 +20,14 @@ html {
   font-size: 10px;
 }
 
-main {
+.main {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-main .section-1 {
-  width: 80vw;
+.main .section-1 {
+  width: 80%;
   padding: 2rem 2rem;
   display: flex;
   flex-direction: column;
@@ -38,18 +38,18 @@ main .section-1 {
   text-align: center;
   background-color: rgb(101, 36, 187);
 }
-main .section-1 #section-1top {
+.main .section-1 #section-1top {
   text-align: center;
   font-size: 1rem;
   color: rgb(245, 244, 244);
 }
-main .section-1 #section-1top h1 {
+.main .section-1 #section-1top h1 {
   font-weight: 400;
 }
-main .section-1 #section-1top span {
+.main .section-1 #section-1top span {
   color: #F8C315;
 }
-main .section-1 #section-1bottom {
+.main .section-1 #section-1bottom {
   width: 100%;
   font-size: 0.8rem;
   text-align: center;
@@ -58,14 +58,14 @@ main .section-1 #section-1bottom {
      object-fit: fill;
   line-height: 1.3rem;
 }
-main .section-1 #section-1bottom h3 {
+.main .section-1 #section-1bottom h3 {
   opacity: 0.8;
 }
-main .section-1 #section-1bottom img {
+.main .section-1 #section-1bottom img {
   width: 80%;
 }
-main .section-2 {
-  width: 80vw;
+.main .section-2 {
+  width: 80%;
   padding: 1rem 0.4rem;
   display: flex;
   flex-direction: column;
@@ -76,19 +76,19 @@ main .section-2 {
   text-align: center;
   background-color: white;
 }
-main .section-2 #section-2top {
+.main .section-2 #section-2top {
   -o-object-fit: fill;
      object-fit: fill;
 }
-main .section-2 #section-2top img {
+.main .section-2 #section-2top img {
   width: 100%;
 }
-main .section-2 #section-2bottom h2 {
+.main .section-2 #section-2bottom h2 {
   font-weight: 600;
   font-size: 1.3rem;
 }
-main .section-3 {
-  width: 80vw;
+.main .section-3 {
+  width: 80%;
   padding: 0rem 0rem;
   display: flex;
   flex-direction: column;
@@ -99,27 +99,27 @@ main .section-3 {
   text-align: center;
   background-color: rgb(234, 187, 126);
 }
-main .section-3 #section-3-top {
+.main .section-3 #section-3-top {
   padding-left: 1rem;
   padding-top: 1rem;
   width: 80%;
 }
-main .section-3 #section-3-top h2 {
+.main .section-3 #section-3-top h2 {
   font-weight: 600;
   font-size: 1.2rem;
 }
-main .section-3 #section-3-bottom {
+.main .section-3 #section-3-bottom {
   -o-object-fit: cover;
      object-fit: cover;
   width: 74%;
   padding-left: 1rem;
   padding-bottom: 0rem;
 }
-main .section-3 #section-3-bottom img {
+.main .section-3 #section-3-bottom img {
   width: 100%;
 }
-main .section-4 {
-  width: 80vw;
+.main .section-4 {
+  width: 80%;
   padding: 1rem;
   display: flex;
   flex-direction: column;
@@ -130,25 +130,25 @@ main .section-4 {
   text-align: center;
   background-color: rgb(198, 198, 198);
 }
-main .section-4 #section-4-top h2 {
+.main .section-4 #section-4-top h2 {
   font-size: 1.4rem;
   font-weight: 600;
 }
-main .section-4 #section-4-middle {
+.main .section-4 #section-4-middle {
   -o-object-fit: cover;
      object-fit: cover;
 }
-main .section-4 #section-4-middle img {
+.main .section-4 #section-4-middle img {
   width: 100%;
 }
-main .section-4 #section-4-bottom {
+.main .section-4 #section-4-bottom {
   opacity: 0.8;
 }
-main .section-4 #section-4-bottom h4 {
+.main .section-4 #section-4-bottom h4 {
   font-weight: 400;
 }
-main .section-5 {
-  width: 80vw;
+.main .section-5 {
+  width: 80%;
   padding: 1rem 3rem;
   display: flex;
   flex-direction: column;
@@ -160,19 +160,19 @@ main .section-5 {
   background-color: rgb(98, 56, 182);
   color: rgb(239, 239, 239);
 }
-main .section-5 #section-5-top {
+.main .section-5 #section-5-top {
   -o-object-fit: cover;
      object-fit: cover;
 }
-main .section-5 #section-5-top img {
+.main .section-5 #section-5-top img {
   width: 100%;
 }
-main .section-5 #section-5-bottom h2 {
+.main .section-5 #section-5-bottom h2 {
   font-size: 1.5rem;
   font-weight: 500;
 }
-main .section-6 {
-  width: 80vw;
+.main .section-6 {
+  width: 80%;
   padding: 1rem 1rem;
   display: flex;
   flex-direction: column;
@@ -183,29 +183,29 @@ main .section-6 {
   text-align: center;
   background-color: white;
 }
-main .section-6 #section-6-top {
+.main .section-6 #section-6-top {
   text-align: start;
 }
-main .section-6 #section-6-top h1 {
+.main .section-6 #section-6-top h1 {
   font-size: 2rem;
   font-weight: 500;
 }
-main .section-6 #section-6-middle h4 {
+.main .section-6 #section-6-middle h4 {
   text-align: start;
   font-size: 0.8rem;
   font-weight: 400;
 }
-main .section-6 #section-6-bottom {
+.main .section-6 #section-6-bottom {
   -o-object-fit: cover;
      object-fit: cover;
   align-items: start;
   width: 60%;
 }
-main .section-6 #section-6-bottom img {
+.main .section-6 #section-6-bottom img {
   width: 100%;
 }
-main .section-7 {
-  width: 80vw;
+.main .section-7 {
+  width: 80%;
   padding: 1.3rem 1.3rem;
   display: flex;
   flex-direction: column;
@@ -216,23 +216,23 @@ main .section-7 {
   text-align: center;
   background-color: rgb(252, 233, 236);
 }
-main .section-7 #section-7-top h1 {
+.main .section-7 #section-7-top h1 {
   font-size: 1.5rem;
   font-weight: 600;
 }
-main .section-7 #section-7-top h1 i {
+.main .section-7 #section-7-top h1 i {
   color: rgb(146, 75, 234);
 }
-main .section-7 #section-7-bottom {
+.main .section-7 #section-7-bottom {
   -o-object-fit: cover;
      object-fit: cover;
   width: 70%;
 }
-main .section-7 #section-7-bottom img {
+.main .section-7 #section-7-bottom img {
   width: 100%;
 }
-main .section-8 {
-  width: 80vw;
+.main .section-8 {
+  width: 80%;
   padding: 1rem 1rem;
   display: flex;
   flex-direction: column;
@@ -243,17 +243,27 @@ main .section-8 {
   text-align: center;
   background-color: rgb(234, 187, 126);
 }
-main .section-8 #section-8-top {
+.main .section-8 #section-8-top {
   font-size: 1em;
   width: 85%;
 }
-main .section-8 #section-8-top h1 {
+.main .section-8 #section-8-top h1 {
   font-weight: 500;
 }
-main .section-8 #section-8-bottom {
+.main .section-8 #section-8-bottom {
   -o-object-fit: cover;
      object-fit: cover;
 }
-main .section-8 #section-8-bottom img {
+.main .section-8 #section-8-bottom img {
   width: 100%;
+}
+
+@media (min-width: 425px) {
+  .main {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: minmax(150px, auto);
+    padding: 1rem;
+  }
 }/*# sourceMappingURL=style.css.map */
